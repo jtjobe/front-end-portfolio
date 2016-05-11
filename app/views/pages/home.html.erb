@@ -1,2 +1,42 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div id="sidebar">
+  <div class="sidebar-header">UX/UI Components</div>
+  <div class="sidebar-option" data-content-id="cards">Cards</div>
+  <div class="sidebar-option" data-content-id="dropdowns">Dropdowns</div>
+  <div class="sidebar-option" data-content-id="time-picker">Time Picker</div>
+  <div class="sidebar-option" data-content-id="drag-n-drop">Drag & Drop</div>
+  <div class="sidebar-option" data-content-id="slideshows">Slideshows</div>
+  <div class="sidebar-option" data-content-id="forms">Forms</div>
+  <div class="sidebar-option" data-content-id="modals">Modals</div>
+  <div class="sidebar-option" data-content-id="text-blocks">Text Blocks</div>
+
+  <div class="sidebar-header">Concepts</div>
+  <div class="sidebar-option">Build a Business Card</div>
+  <div class="sidebar-option">Shopping Cart</div>
+</div>
+
+<div id="main">
+  <div id="cards" class="main-content">
+    <%= render 'cards' %>
+  </div>
+  <div id="dropdowns" class="main-content">
+    <%= render 'dropdowns' %>
+  </div>
+  <div id="time-picker" class="main-content">
+    <%= render 'time_picker' %>
+  </div>
+  <div id="drag-n-drop" class="main-content">
+    <%= render 'drag_n_drop' %>
+  </div>
+  <div id="slideshows" class="main-content">
+    <%= render 'slideshows' %>
+  </div>
+  <div id="forms" class="main-content">
+    <%= render 'forms' %>
+  </div>
+  <div id="modals" class="main-content">
+    <%= render 'modals' %>
+  </div>
+  <div id="text-blocks" class="main-content">
+    <%= render 'text_blocks' %>
+  </div>
+</div>
