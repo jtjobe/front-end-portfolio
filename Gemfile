@@ -45,3 +45,18 @@ group :development do
   gem 'spring'
 end
 
+
+gem 'figaro'
+gem 'pg'
+
+group :development do
+  gem 'better_errors'
+  gem 'rails_apps_pages'
+  gem 'rails_layout'
+end
+
+group :development, :test do
+  gem 'pry-rails'
+  gem 'pry-rescue'
+end
+
